@@ -18,21 +18,6 @@ void setup() {
 }
 
 void loop() {
-  //Serial.println(char(mySerial.read()));
-
-  //  if (mySerial.available()) {
-  //    Serial.print(char(mySerial.read()));
-  //  }
-
-  //Serial.print("Hello");
-  ////if (mySerial.available())
-  //// {
-  ////    Serial.print(char(mySerial.read()));
-  ////  }
-  //
-
-  //  Serial.println(char(Serial.read()));
-  
   if (Serial.available() > 0) {
     state = Serial.read();
     delay(100);
