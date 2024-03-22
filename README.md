@@ -1,0 +1,1 @@
+This repositary provides C++ code for enabling communication between 2 Arduino UNO modules via 2 HC04 Bluetooth modules. Although one is called Slave and the other is called Master, both can tranfer as well as receive signals. This code will not be functional if the bluetooth modules are not configured as Slave and Master.
